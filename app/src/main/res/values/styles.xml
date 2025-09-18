@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedButtonGreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#4CAF50</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="RoundedButtonRed">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="RoundedButtonBlue" parent="RoundedButtonGreen">
+        <item name="android:backgroundTint">#2196F3</item>
+    </style>
+
+    <style name="RoundedButtonGray" parent="RoundedButtonGreen">
+        <item name="android:backgroundTint">#607D8B</item>
+    </style>
+
+</resources>
